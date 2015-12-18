@@ -1,0 +1,97 @@
+/*********************************************
+  Horizontal Navigation Styles 
+    (with dropdowns)
+*********************************************/
+#above-header #navigation, #above-header #catmenu {
+	border-bottom: 1px solid #FFF;
+}
+#below-header #navigation, #below-header #catmenu {
+	border-top: 1px solid #FFF;
+}
+#navigation, #catmenu {
+	width: 100%;
+	margin: 0 auto 0;
+	padding: 5px 0;
+	background: #1d1d1d url(images/menu-bg.gif) repeat-x;
+	height: 40px;
+	text-transform: uppercase;
+	font-size: 11px;
+	width:1024px;
+	height:40px;
+	margin: 10px 0;
+	border:1px solid #009;
+}
+#navigation ul, #catmenu ul {
+	float: left;
+	list-style: none;
+	margin: 0 auto;
+	padding: 10px;
+	text-align:center;
+}
+#navigation li, #catmenu li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display:inline;
+}
+#navigation li a, #catmenu li a {
+	color: #FFF;
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 2px 40px;
+	text-decoration: none;
+	font-size:18px;
+}
+#navigation li a:hover, #catmenu li a:hover {
+	background: #767676 url(images/menu-active-bg.gif) repeat-x;
+}
+/* second level stuff */
+#navigation li ul, #catmenu li ul {
+	z-index: 9999;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 190px;
+	margin: 5px 0 0;
+	padding: 0;
+}
+#navigation li li, #catmenu li li {
+	padding: 0;
+}
+#navigation li li a, #catmenu li li a {
+	width: 122px;
+	float: none;
+	margin: 0px;
+	padding: 2px 10px;
+	border-top: none;
+	border-bottom:1px solid #CCC;
+	background: #767676 url(images/menu-active-bg.gif) repeat-x;
+}
+#navigation li li a:hover, #catmenu li li a:hover {
+	background: #1d1d1d url(images/menu-bg.gif) repeat-x;
+	color: #FFFFFF;
+	padding: 2px 10px;
+}
+#navigation li ul, #catmenu li ul {
+	z-index: 9999;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 190px;
+	margin: 0;
+	padding: 10px 0 0;
+}
+#navigation li ul ul, #catmenu li ul ul {
+	margin: -33px 0 0 142px;
+}
+#navigation li:hover ul ul, #navigation li:hover ul ul ul, #navigation li.sfhover ul ul, #navigation li.sfhover ul ul ul, #catmenu li:hover ul ul, #catmenu li:hover ul ul ul, #catmenu li.sfhover ul ul, #catmenu li.sfhover ul ul ul {
+	left: -999em;
+}
+#navigation li:hover ul, #navigation li li:hover ul, #navigation li li li:hover ul, #navigation li.sfhover ul, #navigation li li.sfhover ul, #navigation li li li.sfhover ul, #catmenu li:hover ul, #catmenu li li:hover ul, #catmenu li li li:hover ul, #catmenu li.sfhover ul, #catmenu li li.sfhover ul, #catmenu li li li.sfhover ul {
+	left: auto;
+}
+#navigation li:hover, #navigation li.sfhover, #catmenu li:hover, #catmenu li.sfhover {
+	position: static;
+}

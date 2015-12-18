@@ -1,0 +1,2 @@
+<div class="ftr_lft">© Copyright 2012 by elixir juice bar. All Rights Reserved</div>
+<div class="ftr_rgt"><a href="contact.php" class="ftr_lnk">Contact</a>  |  <a href="legal.php" class="ftr_lnk">Legal</a>  |  <a href="press.php" class="ftr_lnk">Press</a>  |   <a href="faq.php" class="ftr_lnk">FAQ</a>  |  <a href="locations.php" class="ftr_lnk">Locations</a></div>

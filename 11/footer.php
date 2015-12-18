@@ -1,0 +1,2 @@
+<div class="ftr_lft">© Copyright 2012 by Elixir IP. All Rights Reserved</div>
+<div class="ftr_rgt"><a href="contact.php" class="ftr_lnk">Contact</a>  |   <a href="locations.php" class="ftr_lnk">Locations</a></div>

@@ -1,0 +1,13 @@
+array (
+  'order_by' => 'total',
+  'direction' => 'ASC',
+  'limit' => 25,
+  'offset' => 0,
+  'iTotalRecords' => '0',
+  'iTotalDisplayRecords' => '0',
+  'where' => 
+  array (
+    'reoccuring_orders.member_id' => '3',
+  ),
+  'dir' => false,
+)
